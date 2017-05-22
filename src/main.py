@@ -4,4 +4,4 @@ from TwitterStream import TwitterStream
 
 print "Main"
 twitter = TwitterStream()
-twitter.get_stream("Trump")
+twitter.get_stream("Ivanka")

@@ -18,7 +18,7 @@ class TwitterStream(object):
 
     def get_stream(self, query):
 
-        OUT_FILE = query + ".json"
+        OUT_FILE = "../data/"+query + ".json"
         print 'Filtering the public timeline for "{0}"'.format(query)
         stream = self.twitter_stream.statuses.filter(track=query)
 
